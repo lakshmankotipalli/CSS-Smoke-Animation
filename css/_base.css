@@ -32,6 +32,8 @@ h1 span {
     opacity: 0;
 }
 
+/* The animation happens here */
+
 @keyframes anim {
     0% {
         opacity: 0;
@@ -44,6 +46,8 @@ h1 span {
     }
 }
 
+
+/* // creates delay for displaying each letter */
 h1 span:nth-child(1) {
     animation-delay: 1s;
 }
